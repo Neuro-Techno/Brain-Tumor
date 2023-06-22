@@ -14,8 +14,8 @@ import pandas as pd
 
 xmls=[]
 imgs=[]
-YES = "/BrainTumor/yes"
-NO =  '/BrainTumor/no'
+YES = "/BrainTumor/YES"
+NO =  '/BrainTumor/NO'
 
 image_size = (32, 32) # اندازه تصاویر خروجی
 num_images = len(os.listdir(YES)) 
